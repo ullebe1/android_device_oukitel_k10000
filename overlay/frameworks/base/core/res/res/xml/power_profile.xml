@@ -18,20 +18,21 @@
 -->
 
 <device name="Android">
-  <item name="screen.on">110</item>
-  <item name="screen.full">290</item>
-  <item name="bluetooth.active">35</item>
+  <item name="none">0</item>
+  <item name="screen.on">200</item>
+  <item name="screen.full">300</item>
+  <item name="bluetooth.active">10</item>
   <item name="bluetooth.on">0.1</item>
-  <item name="wifi.on">5</item>
-  <item name="wifi.active">125</item>
-  <item name="wifi.scan">30</item>
-  <item name="dsp.audio">30</item>
-  <item name="dsp.video">80</item>
+  <item name="wifi.on">3</item>
+  <item name="wifi.active">200</item>
+  <item name="wifi.scan">100</item>
+  <item name="dsp.audio">100</item>
+  <item name="dsp.video">50</item>
   <item name="camera.flashlight">200</item>
   <item name="camera.avg">200</item>
-  <item name="radio.active">175</item>
-  <item name="radio.scanning">15</item>
-  <item name="gps.on">35</item>
+  <item name="radio.active">200</item>
+  <item name="radio.scanning">10</item>
+  <item name="gps.on">50</item>
   <array name="radio.on">
       <value>2</value>
       <value>1</value>
@@ -61,7 +62,7 @@
   <item name="cpu.idle">3</item>
 
   <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
-  <item name="battery.capacity">2000</item>
+  <item name="battery.capacity">4000</item>
 
   <array name="wifi.batchedscan"> <!-- mA -->
       <value>.2</value> <!-- 1-8/hr -->
