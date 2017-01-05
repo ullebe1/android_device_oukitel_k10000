@@ -16,7 +16,7 @@
 VENDOR_BLOBS ?= vendor/wileyfox/porridge/porridge-vendor.mk
 $(call inherit-product-if-exists, $(VENDOR_BLOBS))
 
-MTK_PROJECT_CONFIG ?= device/wileyfox/porridge/ProjectConfig.mk
+MTK_PROJECT_CONFIG ?= device/oukitel/k10000/ProjectConfig.mk
 include $(MTK_PROJECT_CONFIG)
 
 # Charger and USB
@@ -29,7 +29,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.target.rc:root/init.target.rc \
-    $(LOCAL_PATH)/rootdir/fstab.porridge:root/fstab.porridge
+    $(LOCAL_PATH)/rootdir/fstab.k10000:root/fstab.k10000
 
 # Permissions
 PRODUCT_COPY_FILES += \
