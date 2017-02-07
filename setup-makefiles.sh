@@ -155,7 +155,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),porridge)
+ifeq (\$(TARGET_DEVICE),k10000)
 ifeq (\$(MTKPATH),)
 
 # Proprietary Modules go here

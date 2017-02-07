@@ -77,9 +77,6 @@
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
-    <!-- Default color for notification LED is green. -->
-    <color name="config_defaultNotificationColor">#ff00ff00</color>
-
     <string name="config_useragentprofile_url" translatable="false">http://ua-profiles.cyngn.com/porridge/porridge-4cc1a6987d.rdf</string>
 
     <string name="config_mms_user_agent">Oukitel-K10000/1.0</string>

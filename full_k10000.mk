@@ -15,7 +15,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from porridge
+# Inherit from k10000
 $(call inherit-product, device/oukitel/k10000/device.mk)
 
 PRODUCT_DEVICE := k10000
