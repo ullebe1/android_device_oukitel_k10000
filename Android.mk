@@ -15,6 +15,4 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq $(filter k10000,$(TARGET_DEVICE))
 include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
