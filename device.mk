@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-VENDOR_BLOBS ?= vendor/wileyfox/porridge/porridge-vendor.mk
+VENDOR_BLOBS ?= vendor/oukitel/k10000/k10000-vendor.mk
 $(call inherit-product-if-exists, $(VENDOR_BLOBS))
 
 MTK_PROJECT_CONFIG ?= device/oukitel/k10000/ProjectConfig.mk
