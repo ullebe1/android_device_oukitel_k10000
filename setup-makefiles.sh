@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=oukitel
-VENDOR=k10000
+DEVICE=k10000
+VENDOR=oukitel
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
@@ -61,8 +61,8 @@ endif
 ifeq (\$(WITH_GMS),true)
 
 PRODUCT_COPY_FILES += \\
-    vendor/wileyfox/porridge/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \\
-    vendor/wileyfox/porridge/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
+    vendor/oukitel/k10000/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \\
+    vendor/oukitel/k10000/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 
 endif # WITH_GMS
 
@@ -155,8 +155,8 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),k10000)
-ifeq (\$(MTKPATH),)
+#ifeq (\$(TARGET_DEVICE),k10000)
+#ifeq (\$(MTKPATH),)
 
 # Proprietary Modules go here
 
@@ -202,7 +202,7 @@ LOCAL_MULTILIB := 64
 LOCAL_SRC_FILES_64 := proprietary/lib64/libaudiopolicymanager.so
 include \$(BUILD_PREBUILT)
 
-endif
-endif
+#endif
+#endif
 
 EOF
